@@ -1,4 +1,9 @@
 def fasta_to_dict(fasta):
+     """
+     convert fasta file to a python dictionary
+    :param fasta: path to fasta file
+    :return: python dictionary
+    """
     fasta_ids = []  # Initialize a list to be populated with fasta headers
     fasta_id_position = []   # Initialize a list to be populated with index positions of each fasta header
     fasta_seqs = []  # Initialize a list to be populated with fasta sequences
