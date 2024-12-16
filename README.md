@@ -3,6 +3,7 @@ Python function that converts a fasta file to a python dictionary. Each fasta he
 
 takes one argument: path to fasta file
 
-usage:
+### usage:
+In python contsol, type:
 
 fasta_to_dict("./path/to/file.fa")
